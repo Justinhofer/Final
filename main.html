@@ -1,0 +1,14 @@
+<button onclick=redirect('gradeView') id="gradeView">Grade View</button>
+<button id="newGrade">New Grade</button>
+
+<script type="text/javascript">
+    document.getElementById("newGrade").onclick = function () {
+        location.href = "grades.html";
+    };
+var gradeView = document.getElementById("#gradeView");
+var newGrade = document.getElementById("#newGrade");
+
+ function redirect(string page) {
+     console.log(page);
+ }
+</script>
